@@ -1,5 +1,5 @@
 primary_name: "Haofan Wang"
-secondary_name: "王浩帆"
+secondary_name: ""
 navbar_name: "Haofan Wang"
 
 positions:
@@ -50,10 +50,10 @@ education:
 
 
 awards:
-- name: Award Name 2
-  date: 2024
-- name: Award Name 1 
-  date: 2021
+- name: The second scholarship of the Sun Yat-sen University.
+  date: 2023
+- name: The second scholarship of the Sun Yat-sen University. 
+  date: 2022
 
 # Feel free to replace the footer text if you would like to, but I will greatly appreciate it 
 # if you keep the link to the template so that more people can benefit from it. Thanks!
