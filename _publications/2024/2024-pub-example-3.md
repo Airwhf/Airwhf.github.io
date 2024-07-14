@@ -10,7 +10,9 @@ pub_date:       "2024"
 
 abstract: >-
   1. Higlight 1
+
   2. Higlight 2
+
   3. Higlight 3
 cover:          assets/images/covers/cover3.jpg
 authors:
