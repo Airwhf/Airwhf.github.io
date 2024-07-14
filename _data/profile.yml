@@ -3,7 +3,7 @@ secondary_name: ""
 navbar_name: "Haofan Wang"
 
 positions:
-  - '<span class="no-break"><img src="assets/images/badges/PKU_red.png" alt="Peking University" class="inline-badge"/></span> B.S., Peking University (2021)'
+  - '<span class="no-break"><img src="assets/images/badges/SYSU_green.png" alt="Sun Yat-Sen University" class="inline-badge"/></span> PhD., Sun Yat-Sen University (2022)'
 
 email: "cuitwhf@gmail.com"
 # cv_link: link-to-your-cv-file
@@ -27,7 +27,7 @@ portrait_caption: >-
   Photo by Myself.
 
 education:
-- name: Sun Yat-sen University
+- name: Sun Yat-Sen University
   logo: assets/images/badges/SYSU_green.png
   position: PhD. in the School of Atmosperic Sciences
   date: Sep. 2022 - Present
@@ -58,4 +58,4 @@ awards:
 # Feel free to replace the footer text if you would like to, but I will greatly appreciate it 
 # if you keep the link to the template so that more people can benefit from it. Thanks!
 footer_text: >-
-  <a href="https://github.com/luost26/academic-homepage" target="_blank"><i class="fas fa-pencil-ruler"></i> academic-homepage</a>
+  <a href="https://github.com/luost26/academic-homepage" target="_blank"><i class="fas fa-pencil-ruler"></i>Acknowledgements for the template</a>
