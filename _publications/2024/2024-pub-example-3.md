@@ -17,6 +17,7 @@ authors:
   - Some Other Name
   - John Doe
 links:
-  Code: https://github.com/luost26/academic-homepage
-  Unsplash: https://unsplash.com/photos/sliced-in-half-pineapple--_PLJZmHZzk
+  Code: https://github.com/Airwhf/MEIAT-CMAQ
+  Unsplash: https://doi.org/10.1016/j.atmosenv.2024.120604
+  PDF: assets/pdf/2024_MEIAT-CMAQ_AE.pdf
 ---
