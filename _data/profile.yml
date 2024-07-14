@@ -17,20 +17,30 @@ github: Airwhf
 # orcid: 0000-0000-0000-0000
 
 short_bio: >-
-  I'm a Phd. student at the School of Atmosperic Sciences, Sun Yat-sen University, China. 
+  I'm a PhD. student at the School of Atmosperic Sciences, Sun Yat-sen University, China. 
   My research interests include the impacts of urban canopy on regional meteorological conditions and air quality, and the impacts of the Biogenic Volcanic Organic Component (BVOC) on air quality.
   Rencently, I am working on the impact of ozone-vegetation feedback and urban green space on meteorological conditions and air quality.
   If you have any questions, please feel free to contact me.
 
 portrait_url: assets/images/photos/portrait.jpg
 portrait_caption: >-
-  Photo by Manja Vitolic on Unsplash.
+  Photo by Myself.
 
 education:
-- name: Peking University
-  logo: assets/images/badges/PKU_red.png
-  position: B.S. in Computer Science
-  date: Sep. 2017 - Jul. 2021
+- name: Sun Yat-sen University
+  logo: assets/images/badges/SYSU_green.png
+  position: PhD. in the School of Atmosperic Sciences
+  date: Sep. 2022 - Present
+
+- name: Chengdu University of Information and Technology
+  logo: assets/images/badges/CUIT_blue.png
+  position: M.S. in the School of Environment and Resources
+  date: Sep. 2019 - Jul. 2021
+
+- name: Southwest Jiaotong University
+  logo: assets/images/badges/SWJTU_blue.png
+  position: B.S. in the School of Electrical Engineering
+  date: Sep. 2015 - Jul. 2019
 
 # experience:
 # - name: Peking University
