@@ -13,9 +13,9 @@ abstract: >-
 # cover:          assets/images/covers/cover3.jpg
 authors:
   - Yaohan Xian
-  - Yang Zhang*
+  - Yang Zhang#
   - Zhihong Liu
-  - Haofan Wang#
+  - Haofan Wang
   - Tianxin Xiong
 links:
   Unsplash: https://doi.org/10.1016/j.scitotenv.2024.174557

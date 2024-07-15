@@ -14,7 +14,7 @@ abstract: >-
 authors:
   - Haofan Wang
   - Zhihong Liu
-  - Yang Zhang*
+  - Yang Zhang#
   - Zhengyang Yu
   - Chunrong Chen
 links:

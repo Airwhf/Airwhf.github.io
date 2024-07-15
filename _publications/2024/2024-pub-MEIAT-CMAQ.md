@@ -14,7 +14,7 @@ abstract: >-
 authors:
   - Haofan Wang
   - Jiaxin Qiu
-  - Yiming Liu*
+  - Yiming Liu#
   - Qi Fan
   - Xiao Lu
   - Yang Zhang
