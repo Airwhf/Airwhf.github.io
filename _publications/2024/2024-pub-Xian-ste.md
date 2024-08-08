@@ -19,5 +19,5 @@ authors:
   - Tianxin Xiong
 links:
   Unsplash: https://doi.org/10.1016/j.scitotenv.2024.174557
-  # PDF: assets/pdf/2024_Xian_STE.pdf
+  PDF: assets/pdf/2024_Xian_STE.pdf
 ---
