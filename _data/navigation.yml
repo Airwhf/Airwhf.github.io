@@ -3,5 +3,7 @@ pages:
   url: ./
 - name: Publications
   url: publications
-- name: Management
-  url: management
+# - name: Management
+#   url: management
+- name: Blog
+  url: blog

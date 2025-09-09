@@ -1,0 +1,32 @@
+---
+layout: default
+title: Blog
+navbar_title: Blog
+permalink: /blog
+---
+
+<div class="row justify-content-center mt-4">
+    <div class="col-lg-9">
+        <h1 class="mb-4">Blog</h1>
+        {% assign posts = site.posts %}
+        {% if posts and posts.size > 0 %}
+            <ul class="list-unstyled">
+                {% for post in posts %}
+                <li class="mb-4">
+                    <h4 class="mb-1"><a href="{{ post.url }}">{{ post.title }}</a></h4>
+                    <div class="text-muted mb-2">{{ post.date | date: "%Y-%m-%d" }}</div>
+                    {% if post.excerpt %}
+                    <p class="mb-0">{{ post.excerpt | strip_html | truncate: 160 }}</p>
+                    {% endif %}
+                </li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>No posts yet.</p>
+        {% endif %}
+    </div>
+    <div class="col-lg-3">
+    </div>
+</div>
+
+
