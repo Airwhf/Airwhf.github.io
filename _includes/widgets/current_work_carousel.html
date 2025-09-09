@@ -4,7 +4,7 @@
 
         {% assign works = site.data.current_work.items %}
         {% if works and works.size > 0 %}
-        <div id="currentWorkCarousel" class="carousel slide" data-ride="carousel">
+        <div id="currentWorkCarousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" data-wrap="true">
             <ol class="carousel-indicators">
                 {% for work in works %}
                 <li data-target="#currentWorkCarousel" data-slide-to="{{ forloop.index0 }}" class="{% if forloop.first %}active{% endif %}"></li>
@@ -33,6 +33,14 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
+        </div>
+        <div class="d-flex justify-content-center mt-3">
+            <button class="btn btn-outline-secondary mr-2" type="button" data-target="#currentWorkCarousel" data-slide="prev">
+                <i class="fas fa-chevron-left"></i> Prev
+            </button>
+            <button class="btn btn-outline-secondary" type="button" data-target="#currentWorkCarousel" data-slide="next">
+                Next <i class="fas fa-chevron-right"></i>
+            </button>
         </div>
         {% else %}
         <p class="mb-0">No current work items yet.</p>
