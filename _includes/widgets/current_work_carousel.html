@@ -3,6 +3,31 @@
         <h4 class="card-title mb-3">{{ site.data.current_work.title }}</h4>
 
         {% assign works = site.data.current_work.items %}
+        <style>
+        /* Current Work carousel controls - more visible with black outlined circular buttons */
+        .cw-control {
+            width: 10%;
+            opacity: 1 !important;
+        }
+        .cw-icon {
+            display: inline-block;
+            width: 3rem;
+            height: 3rem;
+            border: 2px solid #000;
+            border-radius: 50%;
+            background-color: rgba(255,255,255,0.92);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 1.2rem 1.2rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+        }
+        .cw-icon-prev {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 8 8'%3E%3Cpath d='M5.5 1L2 4l3.5 3' stroke='%23000' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+        }
+        .cw-icon-next {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 8 8'%3E%3Cpath d='M2.5 1L6 4l-3.5 3' stroke='%23000' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+        }
+        </style>
         {% if works and works.size > 0 %}
         <div id="currentWorkCarousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" data-wrap="true">
             <ol class="carousel-indicators">
@@ -25,12 +50,12 @@
                 </div>
                 {% endfor %}
             </div>
-            <a class="carousel-control-prev" href="#currentWorkCarousel" role="button" data-slide="prev" style="width: 8%; opacity: 0.9;">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <a class="carousel-control-prev cw-control" href="#currentWorkCarousel" role="button" data-slide="prev">
+                <span class="cw-icon cw-icon-prev" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
             </a>
-            <a class="carousel-control-next" href="#currentWorkCarousel" role="button" data-slide="next" style="width: 8%; opacity: 0.9;">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <a class="carousel-control-next cw-control" href="#currentWorkCarousel" role="button" data-slide="next">
+                <span class="cw-icon cw-icon-next" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
         </div>
