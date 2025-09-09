@@ -9,6 +9,7 @@ num_selected: 10
 {% include widgets/experience_card.html %}
 
 {% assign pubs = site.publications | sort: "date" | reverse | where: "selected", true %}
+{% include widgets/current_work_carousel.html %}
 {% 
     include widgets/publication_card.html 
     publications=pubs limit=page.num_selected 

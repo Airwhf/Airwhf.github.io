@@ -1,0 +1,43 @@
+<div class="card shadow-sm mt-4">
+    <div class="card-body">
+        <h4 class="card-title mb-3">{{ site.data.current_work.title }}</h4>
+
+        {% assign works = site.data.current_work.items %}
+        {% if works and works.size > 0 %}
+        <div id="currentWorkCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                {% for work in works %}
+                <li data-target="#currentWorkCarousel" data-slide-to="{{ forloop.index0 }}" class="{% if forloop.first %}active{% endif %}"></li>
+                {% endfor %}
+            </ol>
+            <div class="carousel-inner">
+                {% for work in works %}
+                <div class="carousel-item {% if forloop.first %}active{% endif %}">
+                    <div class="row align-items-center">
+                        <div class="col-md-5 mb-3 mb-md-0">
+                            <img class="d-block w-100 rounded" src="{{ work.image }}" alt="{{ work.title }}">
+                        </div>
+                        <div class="col-md-7">
+                            <h5 class="mb-2">{{ work.title }}</h5>
+                            <p class="mb-0" style="white-space: pre-line;">{{ work.description }}</p>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            <a class="carousel-control-prev" href="#currentWorkCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#currentWorkCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        {% else %}
+        <p class="mb-0">No current work items yet.</p>
+        {% endif %}
+    </div>
+</div>
+
+

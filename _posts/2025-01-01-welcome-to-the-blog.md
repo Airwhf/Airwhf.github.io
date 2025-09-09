@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Welcome to the Blog"
-date: 2025-01-01 00:00:00 +0800
+date: 2025-09-09 00:00:00 +0800
 author: Airwhf
 tags: [announcement]
 ---

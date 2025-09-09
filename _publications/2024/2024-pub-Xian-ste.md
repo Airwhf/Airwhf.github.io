@@ -1,5 +1,5 @@
 ---
-title:          "Characterization of winter PM2.5 source contributions and impacts of meteorological conditions and anthropogenic emission changes in the Sichuan Basin, 2002–2020"
+title:          "Characterization of winter PM<sub>2.5</sub> source contributions and impacts of meteorological conditions and anthropogenic emission changes in the Sichuan Basin, 2002–2020"
 date:           2024-10-15 00:01:00 +0800
 selected:       false
 pub:            "Science of The Total Environment (STE)"

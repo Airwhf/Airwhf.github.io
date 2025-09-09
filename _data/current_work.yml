@@ -1,0 +1,15 @@
+title: "Current Work"
+items:
+  - id: work1
+    title: "Urban Ozone Source Attribution"
+    image: assets/images/covers/cover1.jpg
+    description: "Using WRF-CMAQ with ISAM to quantify NOx/VOC-limited regimes and cross-regional transport impacts on O3 episodes in the Sichuan Basin. Key finding: boundary inflow and industrial VOCs dominate MDA8 exceedances in summer."
+  - id: work2
+    title: "High-resolution Emission Allocation"
+    image: assets/images/covers/cover2.jpg
+    description: "Applying MEIAT-CMAQ vertical and temporal allocation modules to refine city-scale emissions. Methods reduce O3 and NO2 mean bias by >25% and improve spatial correlation >10%."
+  - id: work3
+    title: "Land Use Change and Air Quality"
+    image: assets/images/covers/cover3.jpg
+    description: "Integrating MODIS 2019 LULC into WRF; enhanced PBLH and altered ventilation index drive basin-wide O3 increases; PM2.5 decreases over urban expansion zones."
+
