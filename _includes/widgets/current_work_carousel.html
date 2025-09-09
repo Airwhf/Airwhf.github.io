@@ -8,7 +8,7 @@
         .cw-control { opacity: 1 !important; width: auto; }
         .carousel-control-prev.cw-control { left: -12px; }
         .carousel-control-next.cw-control { right: -12px; }
-        .cw-bottom-controls { margin-top: 0.75rem; }
+        .cw-bottom-controls { position: absolute; right: 1rem; bottom: 0.75rem; z-index: 5; }
         .cw-icon {
             display: inline-block;
             width: 3rem;
@@ -29,7 +29,7 @@
         }
         </style>
         {% if works and works.size > 0 %}
-        <div id="currentWorkCarousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" data-wrap="true">
+        <div id="currentWorkCarousel" class="carousel slide position-relative" data-ride="carousel" data-interval="5000" data-pause="hover" data-wrap="true">
             <ol class="carousel-indicators">
                 {% for work in works %}
                 <li data-target="#currentWorkCarousel" data-slide-to="{{ forloop.index0 }}" class="{% if forloop.first %}active{% endif %}"></li>
