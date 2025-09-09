@@ -8,6 +8,7 @@
         .cw-control { opacity: 1 !important; width: auto; }
         .carousel-control-prev.cw-control { left: -12px; }
         .carousel-control-next.cw-control { right: -12px; }
+        .cw-bottom-controls { margin-top: 0.75rem; }
         .cw-icon {
             display: inline-block;
             width: 3rem;
@@ -49,14 +50,10 @@
                 </div>
                 {% endfor %}
             </div>
-            <a class="carousel-control-prev cw-control" href="#currentWorkCarousel" role="button" data-slide="prev">
-                <span class="cw-icon cw-icon-prev" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next cw-control" href="#currentWorkCarousel" role="button" data-slide="next">
-                <span class="cw-icon cw-icon-next" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
+            <div class="cw-bottom-controls d-flex justify-content-center align-items-center mt-3 mb-1">
+                <button class="cw-icon cw-icon-prev mr-3" type="button" data-target="#currentWorkCarousel" data-slide="prev" aria-label="Previous"></button>
+                <button class="cw-icon cw-icon-next" type="button" data-target="#currentWorkCarousel" data-slide="next" aria-label="Next"></button>
+            </div>
         </div>
         
         {% else %}
