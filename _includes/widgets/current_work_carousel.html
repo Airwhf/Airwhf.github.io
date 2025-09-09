@@ -30,11 +30,7 @@
         </style>
         {% if works and works.size > 0 %}
         <div id="currentWorkCarousel" class="carousel slide position-relative" data-ride="carousel" data-interval="5000" data-pause="hover" data-wrap="true">
-            <ol class="carousel-indicators">
-                {% for work in works %}
-                <li data-target="#currentWorkCarousel" data-slide-to="{{ forloop.index0 }}" class="{% if forloop.first %}active{% endif %}"></li>
-                {% endfor %}
-            </ol>
+            
             <div class="carousel-inner">
                 {% for work in works %}
                 <div class="carousel-item {% if forloop.first %}active{% endif %}">
